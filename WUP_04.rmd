@@ -65,6 +65,14 @@ summary.aov(model1)
   
 The P value seems very small. The P value represents the chances of getting this result or something farther when the null hypothesis is actually true. I do not believe that, therefore I reject the null hypothesis.
   
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 15, 2, 2))
+plot(TukeyHSD(model1,conf.level=.95, las=2))
+```
+  
+This plot shows that the high school and graduate are different from each other and LT high school and graduate are different from each other.
+  
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
