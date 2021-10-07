@@ -71,8 +71,11 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1,conf.level=.95, las=2))
 ```
   
-This plot shows that the high school and graduate are different from each other and LT high school and graduate are different from each other.
+This plot shows that the high school and graduate are different from each other and LT high school and graduate are different from each other. We can see that LT high school - graduate and high school- graduate do not hit the 0 line.
   
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+    
+In this write up we discussed how individuals with a graduate, bachelor, and junior college degree scored better than individuals in the LT high school category and the high school category. We established that the people who attended college had a mean value of 9 or greater, while the LT high school and the high school students had a mean value of 8 or less. We also found that our P value was a very small value of 0.000236, so we rejected the null hypothesis. Lastly we used the "TukeyHSD" model and were able to elaborate further that 95% confidence level  LT high school- graduate and high school -graduate categories did not go over the "0." In conclusion, these two categories referenced are different.
+  
